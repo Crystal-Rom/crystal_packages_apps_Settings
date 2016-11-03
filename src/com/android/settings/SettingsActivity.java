@@ -131,6 +131,8 @@ import com.android.settingslib.drawer.DashboardCategory;
 import com.android.settingslib.drawer.SettingsDrawerActivity;
 import com.android.settingslib.drawer.Tile;
 
+import com.android.settings.crystal.CrystalShards;
+
 import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.List;
@@ -237,7 +239,6 @@ public class SettingsActivity extends SettingsDrawerActivity
             Settings.SimSettingsActivity.class.getName(),
             Settings.WirelessSettingsActivity.class.getName(),
             //device_section
-            Settings.CrystalShardsActivity.class.getName(),
             Settings.HomeSettingsActivity.class.getName(),
             Settings.SoundSettingsActivity.class.getName(),
             Settings.DisplaySettingsActivity.class.getName(),
@@ -276,6 +277,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             SpellCheckersSettings.class.getName(),
             UserDictionaryList.class.getName(),
             UserDictionarySettings.class.getName(),
+            CrystalShards.class.getName(),
             HomeSettings.class.getName(),
             DisplaySettings.class.getName(),
             DeviceInfoSettings.class.getName(),
